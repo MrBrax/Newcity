@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "4272"
+	"mapversion" "4274"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -74,7 +74,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4272"
+	"mapversion" "4274"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -51948,6 +51948,125 @@ entity
 		"logicalpos" "[0 -1768]"
 	}
 }
+entity
+{
+	"id" "227636"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini5"
+	"origin" "-1984 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "227621"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini4"
+	"origin" "-1728 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "226722"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini3"
+	"origin" "-1472 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "226719"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini2"
+	"origin" "-1216 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "207953"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini1"
+	"origin" "-960 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "280031"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini6"
+	"origin" "-2240 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "280037"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "newcity/instances/newcity_store3.vmf"
+	"targetname" "building_mini7"
+	"origin" "-2496 2832 -72"
+	editor
+	{
+		"color" "248 181 0"
+		"groupid" "293328"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 hidden
 {
 	entity
@@ -89298,132 +89417,13 @@ entity
 		"logicalpos" "[1500 8000]"
 	}
 }
-entity
-{
-	"id" "227636"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini5"
-	"origin" "-1984 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "227621"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini4"
-	"origin" "-1728 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "226722"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini3"
-	"origin" "-1472 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "226719"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini2"
-	"origin" "-1216 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "207953"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini1"
-	"origin" "-960 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "280031"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini6"
-	"origin" "-2240 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "280037"
-	"classname" "func_instance"
-	"angles" "-0 90 0"
-	"file" "newcity/instances/newcity_store3.vmf"
-	"targetname" "building_mini7"
-	"origin" "-2496 2832 -72"
-	editor
-	{
-		"color" "248 181 0"
-		"groupid" "293328"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-114.727 1799.11 406.856]"
-		"look" "[-366.634 1826.26 -260.134]"
+		"position" "[2409.86 129.23 139.452]"
+		"look" "[2538.34 -528.808 -104.576]"
 	}
 }
 cordon

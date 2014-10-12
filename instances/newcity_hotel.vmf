@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "374"
+	"mapversion" "375"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "374"
+	"mapversion" "375"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4884,7 +4884,7 @@ entity
 	"id" "2064"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_hotel_floor.vmf"
+	"file" "newcity/instances/newcity_hotel_floor.vmf"
 	"targetname" "hotelfloor_1"
 	"origin" "0 0 160"
 	editor
@@ -4900,7 +4900,7 @@ entity
 	"id" "2101"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_hotel_floor.vmf"
+	"file" "newcity/instances/newcity_hotel_floor.vmf"
 	"targetname" "hotelfloor_2"
 	"origin" "0 0 304"
 	editor
@@ -4916,7 +4916,7 @@ entity
 	"id" "2104"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_hotel_floor.vmf"
+	"file" "newcity/instances/newcity_hotel_floor.vmf"
 	"targetname" "hotelfloor_3"
 	"origin" "0 0 448"
 	editor
@@ -7339,7 +7339,7 @@ entity
 	"id" "10287"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_hotel_floor.vmf"
+	"file" "newcity/instances/newcity_hotel_floor.vmf"
 	"targetname" "hotelfloor_4"
 	"origin" "0 0 592"
 	editor
@@ -7557,7 +7557,7 @@ entity
 	"id" "10296"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_hotel_floor.vmf"
+	"file" "newcity/instances/newcity_hotel_floor.vmf"
 	"targetname" "hotelfloor_5"
 	"origin" "0 0 736"
 	editor

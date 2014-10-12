@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "172"
+	"mapversion" "174"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "172"
+	"mapversion" "174"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2236,7 +2236,7 @@ world
 		side
 		{
 			"id" "2412"
-			"plane" "(176 -64 -544) (176 528 -544) (304 528 -544)"
+			"plane" "(176 80 -544) (176 528 -544) (304 528 -544)"
 			"material" "CONCRETE/CONCRETEFLOOR024A"
 			"uaxis" "[1 0 0 -320] 0.25"
 			"vaxis" "[0 -1 0 -320] 0.25"
@@ -2247,7 +2247,7 @@ world
 		side
 		{
 			"id" "2411"
-			"plane" "(176 528 -560) (176 -64 -560) (304 -64 -560)"
+			"plane" "(176 528 -560) (176 80 -560) (304 80 -560)"
 			"material" "CONCRETE/CONCRETEFLOOR028C"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 -448] 0.25"
@@ -2258,7 +2258,7 @@ world
 		side
 		{
 			"id" "2410"
-			"plane" "(176 -64 -560) (176 528 -560) (176 528 -544)"
+			"plane" "(176 80 -560) (176 528 -560) (176 528 -544)"
 			"material" "CONCRETE/CONCRETEFLOOR028C"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
@@ -2269,7 +2269,7 @@ world
 		side
 		{
 			"id" "2409"
-			"plane" "(304 528 -560) (304 -64 -560) (304 -64 -544)"
+			"plane" "(304 528 -560) (304 80 -560) (304 80 -544)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2291,7 +2291,7 @@ world
 		side
 		{
 			"id" "2407"
-			"plane" "(304 -64 -560) (176 -64 -560) (176 -64 -544)"
+			"plane" "(304 80 -560) (176 80 -560) (176 80 -544)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -23434,7 +23434,7 @@ entity
 	"id" "458"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_nightclub.vmf"
+	"file" "newcity/instances/newcity_nightclub.vmf"
 	"origin" "32 -304 -544"
 	editor
 	{
@@ -23494,7 +23494,7 @@ entity
 	"id" "475"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_apartment_big.vmf"
+	"file" "newcity/instances/newcity_apartment_big.vmf"
 	"targetname" "apt_brick_lux_1"
 	"origin" "896 16 -480"
 	editor
@@ -23510,7 +23510,7 @@ entity
 	"id" "478"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_apartment_big.vmf"
+	"file" "newcity/instances/newcity_apartment_big.vmf"
 	"targetname" "apt_brick_lux_2"
 	"origin" "896 16 -336"
 	editor
@@ -24189,7 +24189,7 @@ entity
 	"id" "604"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_apartment_small.vmf"
+	"file" "newcity/instances/newcity_apartment_small.vmf"
 	"targetname" "apt_brick_shank_2"
 	"origin" "656 -320 -416"
 	editor
@@ -24205,7 +24205,7 @@ entity
 	"id" "607"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_apartment_small.vmf"
+	"file" "newcity/instances/newcity_apartment_small.vmf"
 	"targetname" "apt_brick_shank_1"
 	"origin" "656 -320 -560"
 	editor
@@ -24566,7 +24566,7 @@ entity
 	"id" "650"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/newcity_bank.vmf"
+	"file" "newcity/instances/newcity_bank.vmf"
 	"origin" "-32 368 -544"
 	editor
 	{
@@ -35197,8 +35197,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-675.99 784.28 -259.055]"
-		"look" "[-537.145 553.587 -363.491]"
+		"position" "[1094.01 629.062 -241.325]"
+		"look" "[868.829 463.966 -315.097]"
 	}
 	camera
 	{
