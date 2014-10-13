@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "127"
+	"mapversion" "129"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,13 +26,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "127"
+	"mapversion" "129"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -120,7 +120,7 @@ world
 		side
 		{
 			"id" "132"
-			"plane" "(320 256 -16) (240 256 -16) (240 -256 -16)"
+			"plane" "(240 256 -16) (240 -256 -16) (320 -256 -16)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[1 0 0 0] 1.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -131,7 +131,7 @@ world
 		side
 		{
 			"id" "131"
-			"plane" "(320 -256 0) (320 -256 -16) (240 -256 -16)"
+			"plane" "(320 -256 -16) (240 -256 -16) (240 -256 0)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -142,7 +142,7 @@ world
 		side
 		{
 			"id" "130"
-			"plane" "(240 256 0) (240 256 -16) (320 256 -16)"
+			"plane" "(240 256 -16) (320 256 -16) (320 256 0)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[-1 0 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -153,7 +153,7 @@ world
 		side
 		{
 			"id" "129"
-			"plane" "(240 -256 0) (240 -256 -16) (240 256 -16)"
+			"plane" "(240 -256 -16) (240 256 -16) (240 256 0)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -164,7 +164,7 @@ world
 		side
 		{
 			"id" "128"
-			"plane" "(320 256 0) (320 256 -16) (320 -256 -16)"
+			"plane" "(320 256 -16) (320 -256 -16) (320 -256 0)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -175,7 +175,7 @@ world
 		side
 		{
 			"id" "127"
-			"plane" "(320 -256 0) (240 -256 0) (240 256 0)"
+			"plane" "(240 -256 0) (240 256 0) (320 256 0)"
 			"material" "CONCRETE/CONCRETEFLOOR008A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 -256] 0.25"
@@ -592,7 +592,7 @@ world
 		side
 		{
 			"id" "618"
-			"plane" "(-320 -240 0) (-320 -256 0) (240 -256 0)"
+			"plane" "(-320 -256 0) (240 -256 0) (224 -240 0)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -603,7 +603,7 @@ world
 		side
 		{
 			"id" "617"
-			"plane" "(-320 -256 160) (-320 -256 0) (-320 -240 0)"
+			"plane" "(-320 -256 0) (-320 -240 0) (-320 -240 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[0 1 0 -192] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -614,7 +614,7 @@ world
 		side
 		{
 			"id" "616"
-			"plane" "(240 -256 160) (240 -256 0) (-320 -256 0)"
+			"plane" "(240 -256 0) (-320 -256 0) (-320 -256 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[1 0 0 -448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -625,7 +625,7 @@ world
 		side
 		{
 			"id" "615"
-			"plane" "(240 -240 160) (240 -240 0) (240 -256 0)"
+			"plane" "(224 -240 0) (240 -256 0) (240 -256 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -636,7 +636,7 @@ world
 		side
 		{
 			"id" "614"
-			"plane" "(-320 -240 160) (-320 -240 0) (240 -240 0)"
+			"plane" "(-320 -240 0) (224 -240 0) (224 -240 160)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05D"
 			"uaxis" "[1 0 0 204.8] 0.3125"
 			"vaxis" "[0 0 -1 0] 0.3125"
@@ -647,8 +647,8 @@ world
 		side
 		{
 			"id" "613"
-			"plane" "(240 -256 160) (-320 -256 160) (-320 -240 160)"
-			"material" "PROPS/TARPAPERROOF002A"
+			"plane" "(-320 -256 160) (-320 -240 160) (224 -240 160)"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -767,9 +767,9 @@ world
 		{
 			"id" "634"
 			"plane" "(-320 -240 176) (-320 -240 336) (-304 -240 336)"
-			"material" "DEV/DEV_MEASUREWALL01D"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -843,7 +843,7 @@ world
 		{
 			"id" "640"
 			"plane" "(-224 -240 160) (-224 -240 0) (-320 -240 0)"
-			"material" "DEV/DEV_MEASUREWALL01D"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -854,7 +854,7 @@ world
 		{
 			"id" "639"
 			"plane" "(-320 240 160) (-320 240 0) (-224 240 0)"
-			"material" "DEV/DEV_MEASUREWALL01D"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -876,7 +876,7 @@ world
 		{
 			"id" "637"
 			"plane" "(-224 -240 160) (-320 -240 160) (-320 240 160)"
-			"material" "PROPS/TARPAPERROOF002A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -972,7 +972,7 @@ world
 		side
 		{
 			"id" "654"
-			"plane" "(224 -132 0) (224 -240 0) (240 -240 0)"
+			"plane" "(224 -240 0) (240 -256 0) (240 -132 0)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 64] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -983,7 +983,7 @@ world
 		side
 		{
 			"id" "653"
-			"plane" "(240 -132 160) (240 -132 0) (240 -240 0)"
+			"plane" "(240 -132 0) (240 -256 0) (240 -256 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -994,7 +994,7 @@ world
 		side
 		{
 			"id" "652"
-			"plane" "(240 -240 160) (240 -240 0) (224 -240 0)"
+			"plane" "(240 -256 0) (224 -240 0) (224 -240 160)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 320] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1005,7 +1005,7 @@ world
 		side
 		{
 			"id" "651"
-			"plane" "(224 -240 160) (224 -240 0) (224 -132 0)"
+			"plane" "(224 -240 0) (224 -132 0) (224 -132 160)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05D"
 			"uaxis" "[0 -1 0 256] 0.3125"
 			"vaxis" "[0 0 -1 0] 0.3125"
@@ -1016,7 +1016,7 @@ world
 		side
 		{
 			"id" "650"
-			"plane" "(224 -132 160) (224 -132 0) (240 -132 0)"
+			"plane" "(224 -132 0) (240 -132 0) (240 -132 160)"
 			"material" "DE_TRAIN/TRAIN_METALCEILING_02"
 			"uaxis" "[-1 0 0 -80] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1027,9 +1027,9 @@ world
 		side
 		{
 			"id" "649"
-			"plane" "(240 -132 160) (240 -240 160) (224 -240 160)"
-			"material" "PROPS/TARPAPERROOF002A"
-			"uaxis" "[1 0 0 320] 0.25"
+			"plane" "(240 -256 160) (224 -240 160) (224 -132 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1048,7 +1048,7 @@ world
 		side
 		{
 			"id" "666"
-			"plane" "(240 132 0) (240 240 0) (224 240 0)"
+			"plane" "(240 256 0) (224 240 0) (224 132 0)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 64] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1059,7 +1059,7 @@ world
 		side
 		{
 			"id" "665"
-			"plane" "(240 240 160) (240 240 0) (240 132 0)"
+			"plane" "(240 256 0) (240 132 0) (240 132 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1070,9 +1070,9 @@ world
 		side
 		{
 			"id" "664"
-			"plane" "(224 240 160) (224 240 0) (240 240 0)"
-			"material" "DEV/DEV_MEASUREWALL01D"
-			"uaxis" "[1 0 0 320] 0.25"
+			"plane" "(224 240 0) (240 256 0) (240 256 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1081,7 +1081,7 @@ world
 		side
 		{
 			"id" "663"
-			"plane" "(224 132 160) (224 132 0) (224 240 0)"
+			"plane" "(224 132 0) (224 240 0) (224 240 160)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05D"
 			"uaxis" "[0 -1 0 256] 0.3125"
 			"vaxis" "[0 0 -1 0] 0.3125"
@@ -1092,7 +1092,7 @@ world
 		side
 		{
 			"id" "662"
-			"plane" "(240 132 160) (240 132 0) (224 132 0)"
+			"plane" "(240 132 0) (224 132 0) (224 132 160)"
 			"material" "DE_TRAIN/TRAIN_METALCEILING_02"
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1103,7 +1103,7 @@ world
 		side
 		{
 			"id" "661"
-			"plane" "(224 132 160) (224 240 160) (240 240 160)"
+			"plane" "(224 240 160) (240 256 160) (240 132 160)"
 			"material" "PROPS/TARPAPERROOF002A"
 			"uaxis" "[1 0 0 320] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1158,8 +1158,8 @@ world
 		{
 			"id" "675"
 			"plane" "(240 -132 160) (240 -132 132) (224 -132 132)"
-			"material" "DEV/DEV_MEASUREWALL01D"
-			"uaxis" "[1 0 0 320] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1180,8 +1180,8 @@ world
 		{
 			"id" "673"
 			"plane" "(224 -132 160) (224 132 160) (240 132 160)"
-			"material" "PROPS/TARPAPERROOF002A"
-			"uaxis" "[1 0 0 320] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1200,7 +1200,7 @@ world
 		side
 		{
 			"id" "1014"
-			"plane" "(240 256 0) (-320 256 0) (-320 240 0)"
+			"plane" "(-320 256 0) (-320 240 0) (224 240 0)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1211,7 +1211,7 @@ world
 		side
 		{
 			"id" "1013"
-			"plane" "(-320 240 160) (-320 240 0) (-320 256 0)"
+			"plane" "(-320 240 0) (-320 256 0) (-320 256 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[0 1 0 -192] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1222,7 +1222,7 @@ world
 		side
 		{
 			"id" "1012"
-			"plane" "(-320 256 160) (-320 256 0) (240 256 0)"
+			"plane" "(-320 256 0) (240 256 0) (240 256 160)"
 			"material" "BRICK/BRICK_EXT_08"
 			"uaxis" "[-1 0 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1233,8 +1233,8 @@ world
 		side
 		{
 			"id" "1011"
-			"plane" "(240 256 160) (240 256 0) (240 240 0)"
-			"material" "BRICK/BRICK_EXT_08"
+			"plane" "(240 256 0) (224 240 0) (224 240 160)"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1244,7 +1244,7 @@ world
 		side
 		{
 			"id" "1010"
-			"plane" "(240 240 160) (240 240 0) (-320 240 0)"
+			"plane" "(224 240 0) (-320 240 0) (-320 240 160)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05D"
 			"uaxis" "[-1 0 0 -204.8] 0.3125"
 			"vaxis" "[0 0 -1 0] 0.3125"
@@ -1255,7 +1255,7 @@ world
 		side
 		{
 			"id" "1009"
-			"plane" "(-320 240 160) (-320 256 160) (240 256 160)"
+			"plane" "(-320 256 160) (240 256 160) (224 240 160)"
 			"material" "PROPS/TARPAPERROOF002A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1484,7 +1484,7 @@ world
 		{
 			"id" "1045"
 			"plane" "(240 256 160) (240 256 176) (240 -256 176)"
-			"material" "PROPS/TARPAPERROOF002A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1808,7 +1808,7 @@ world
 		side
 		{
 			"id" "1842"
-			"plane" "(240 256 -16) (224 256 -16) (224 -256 -16)"
+			"plane" "(240 -256 -16) (240 256 -16) (224 256 -16)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 -82.2857] 0.230263"
 			"vaxis" "[0 -1 0 -30.9677] 0.258333"
@@ -1819,7 +1819,7 @@ world
 		side
 		{
 			"id" "1841"
-			"plane" "(240 -256 0) (240 -256 -16) (224 -256 -16)"
+			"plane" "(224 -256 0) (240 -256 0) (240 -256 -16)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1830,7 +1830,7 @@ world
 		side
 		{
 			"id" "1840"
-			"plane" "(224 256 -16) (240 256 -16) (240 256 0)"
+			"plane" "(224 256 0) (224 256 -16) (240 256 -16)"
 			"material" "CONCRETE/CONCRETEWALL002A"
 			"uaxis" "[-1 0 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1841,7 +1841,7 @@ world
 		side
 		{
 			"id" "1839"
-			"plane" "(240 256 0) (240 256 -16) (240 -256 -16)"
+			"plane" "(240 -256 0) (240 256 0) (240 256 -16)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 1 0 30.9677] 0.258333"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -1852,7 +1852,7 @@ world
 		side
 		{
 			"id" "1838"
-			"plane" "(240 -256 0) (224 -256 0) (224 256 0)"
+			"plane" "(240 256 0) (240 -256 0) (224 -256 0)"
 			"material" "METAL/METALHULL010B"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[1 0 0 -160] 0.25"
@@ -1863,7 +1863,7 @@ world
 		side
 		{
 			"id" "1837"
-			"plane" "(224 -256 0) (224 -256 -16) (224 256 -16)"
+			"plane" "(224 256 0) (224 -256 0) (224 -256 -16)"
 			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3737,9 +3737,9 @@ entity
 		{
 			"id" "826"
 			"plane" "(320 128 192) (320 128 320) (320 -128 320)"
-			"material" "PROPS/TARPAPERROOF002A"
-			"uaxis" "[0 1 0 128] 0.5"
-			"vaxis" "[0 0 -1 -128] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4034,9 +4034,9 @@ entity
 		{
 			"id" "883"
 			"plane" "(-80 240 16) (48 240 16) (48 240 144)"
-			"material" "DE_TRAIN/TRAIN_METALCEILING_02"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 -320] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4122,9 +4122,9 @@ entity
 		{
 			"id" "889"
 			"plane" "(-208 240 16) (-80 240 16) (-80 240 144)"
-			"material" "DE_TRAIN/TRAIN_METALCEILING_02"
-			"uaxis" "[1 0 0 -192] 0.25"
-			"vaxis" "[0 0 -1 -320] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
