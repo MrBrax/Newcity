@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "160"
+	"mapversion" "162"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "160"
+	"mapversion" "162"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4744,7 +4744,7 @@ world
 		side
 		{
 			"id" "2287"
-			"plane" "(-512 -248 -112) (512 -248 -112) (512 -480 -112)"
+			"plane" "(512 -576 -112) (-512 -576 -112) (-512 -248 -112)"
 			"material" "DE_TRAIN/BLENDGRASSDIRT001A"
 			"uaxis" "[0 1 0 192] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -4755,7 +4755,7 @@ world
 		side
 		{
 			"id" "2286"
-			"plane" "(-512 -480 -128) (512 -480 -128) (512 -248 -128)"
+			"plane" "(512 -248 -128) (-512 -248 -128) (-512 -576 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4766,7 +4766,7 @@ world
 		side
 		{
 			"id" "2285"
-			"plane" "(512 -248 -112) (-512 -248 -112) (-512 -248 -128)"
+			"plane" "(-512 -248 -128) (512 -248 -128) (512 -248 -112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 1 32] 0.25"
@@ -4777,7 +4777,7 @@ world
 		side
 		{
 			"id" "2284"
-			"plane" "(-512 -480 -112) (512 -480 -112) (512 -480 -128)"
+			"plane" "(512 -576 -128) (-512 -576 -128) (-512 -576 -112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4788,7 +4788,7 @@ world
 		side
 		{
 			"id" "2283"
-			"plane" "(512 -480 -112) (512 -248 -112) (512 -248 -128)"
+			"plane" "(512 -248 -128) (512 -576 -128) (512 -576 -112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 63.9963] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4799,7 +4799,7 @@ world
 		side
 		{
 			"id" "2282"
-			"plane" "(-512 -248 -112) (-512 -480 -112) (-512 -480 -128)"
+			"plane" "(-512 -576 -128) (-512 -248 -128) (-512 -248 -112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"

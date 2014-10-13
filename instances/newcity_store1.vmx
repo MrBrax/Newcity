@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "89"
+	"mapversion" "92"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "89"
+	"mapversion" "92"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -640,7 +640,7 @@ world
 		side
 		{
 			"id" "970"
-			"plane" "(-768 -720 0) (-768 256 0) (-288 256 0)"
+			"plane" "(-768 -832 0) (-768 256 0) (-288 256 0)"
 			"material" "CONCRETE/CONCRETEFLOOR038B"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -651,7 +651,7 @@ world
 		side
 		{
 			"id" "969"
-			"plane" "(-768 256 -24) (-768 -720 -24) (-288 -720 -24)"
+			"plane" "(-768 256 -24) (-768 -832 -24) (-288 -832 -24)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -662,7 +662,7 @@ world
 		side
 		{
 			"id" "968"
-			"plane" "(-768 -720 -24) (-768 256 -24) (-768 256 0)"
+			"plane" "(-768 -832 -24) (-768 256 -24) (-768 256 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -673,7 +673,7 @@ world
 		side
 		{
 			"id" "967"
-			"plane" "(-288 256 -24) (-288 -720 -24) (-288 -720 0)"
+			"plane" "(-288 256 -24) (-288 -832 -24) (-288 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -684,7 +684,7 @@ world
 		side
 		{
 			"id" "966"
-			"plane" "(-288 -720 -24) (-768 -720 -24) (-768 -720 0)"
+			"plane" "(-288 -832 -24) (-768 -832 -24) (-768 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -911,7 +911,7 @@ world
 		}
 		side
 		{
-			"id" "0"
+			"id" "1235"
 			"plane" "(-768 -32 192) (-768 112 240) (288 112 240)"
 			"material" "METAL/METALROOF006A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -3546,6 +3546,44 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "4228"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_c17/fence03a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "416 252 52"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4232"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_c17/fence01a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "612 252 52"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

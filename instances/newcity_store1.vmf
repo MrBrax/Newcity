@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "90"
+	"mapversion" "93"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "90"
+	"mapversion" "93"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -260,7 +260,7 @@ world
 		side
 		{
 			"id" "102"
-			"plane" "(-288 -720 0) (-288 -32 0) (288 -32 0)"
+			"plane" "(-288 -832 0) (-288 -32 0) (288 -32 0)"
 			"material" "CONCRETE/CONCRETEFLOOR038B"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -271,7 +271,7 @@ world
 		side
 		{
 			"id" "101"
-			"plane" "(-288 -32 -24) (-288 -720 -24) (288 -720 -24)"
+			"plane" "(-288 -32 -24) (-288 -832 -24) (288 -832 -24)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -282,7 +282,7 @@ world
 		side
 		{
 			"id" "100"
-			"plane" "(-288 -720 -24) (-288 -32 -24) (-288 -32 0)"
+			"plane" "(-288 -832 -24) (-288 -32 -24) (-288 -32 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -293,7 +293,7 @@ world
 		side
 		{
 			"id" "99"
-			"plane" "(288 -32 -24) (288 -720 -24) (288 -720 0)"
+			"plane" "(288 -32 -24) (288 -832 -24) (288 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -304,7 +304,7 @@ world
 		side
 		{
 			"id" "98"
-			"plane" "(288 -720 -24) (-288 -720 -24) (-288 -720 0)"
+			"plane" "(288 -832 -24) (-288 -832 -24) (-288 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -640,7 +640,7 @@ world
 		side
 		{
 			"id" "970"
-			"plane" "(-768 -720 0) (-768 256 0) (-288 256 0)"
+			"plane" "(-768 -832 0) (-768 256 0) (-288 256 0)"
 			"material" "CONCRETE/CONCRETEFLOOR038B"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -651,7 +651,7 @@ world
 		side
 		{
 			"id" "969"
-			"plane" "(-768 256 -24) (-768 -720 -24) (-288 -720 -24)"
+			"plane" "(-768 256 -24) (-768 -832 -24) (-288 -832 -24)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -662,7 +662,7 @@ world
 		side
 		{
 			"id" "968"
-			"plane" "(-768 -720 -24) (-768 256 -24) (-768 256 0)"
+			"plane" "(-768 -832 -24) (-768 256 -24) (-768 256 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -673,7 +673,7 @@ world
 		side
 		{
 			"id" "967"
-			"plane" "(-288 256 -24) (-288 -720 -24) (-288 -720 0)"
+			"plane" "(-288 256 -24) (-288 -832 -24) (-288 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -684,7 +684,7 @@ world
 		side
 		{
 			"id" "966"
-			"plane" "(-288 -720 -24) (-768 -720 -24) (-768 -720 0)"
+			"plane" "(-288 -832 -24) (-768 -832 -24) (-768 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -716,7 +716,7 @@ world
 		side
 		{
 			"id" "982"
-			"plane" "(288 -720 0) (288 256 0) (768 256 0)"
+			"plane" "(288 -832 0) (288 256 0) (768 256 0)"
 			"material" "CONCRETE/CONCRETEFLOOR038B"
 			"uaxis" "[1 0 0 -384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -727,7 +727,7 @@ world
 		side
 		{
 			"id" "981"
-			"plane" "(288 256 -24) (288 -720 -24) (768 -720 -24)"
+			"plane" "(288 256 -24) (288 -832 -24) (768 -832 -24)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 -384] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -738,7 +738,7 @@ world
 		side
 		{
 			"id" "980"
-			"plane" "(288 -720 -24) (288 256 -24) (288 256 0)"
+			"plane" "(288 -832 -24) (288 256 -24) (288 256 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -749,7 +749,7 @@ world
 		side
 		{
 			"id" "979"
-			"plane" "(768 256 -24) (768 -720 -24) (768 -720 0)"
+			"plane" "(768 256 -24) (768 -832 -24) (768 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -760,7 +760,7 @@ world
 		side
 		{
 			"id" "978"
-			"plane" "(768 -720 -24) (288 -720 -24) (288 -720 0)"
+			"plane" "(768 -832 -24) (288 -832 -24) (288 -832 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -3415,7 +3415,7 @@ entity
 	"model" "models/props_urban/gas_sign002.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-192 -704 0"
+	"origin" "-192 -800 0"
 	editor
 	{
 		"color" "255 255 0"
