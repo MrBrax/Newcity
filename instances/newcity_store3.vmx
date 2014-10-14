@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "162"
+	"mapversion" "165"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "162"
+	"mapversion" "165"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5201,7 +5201,7 @@ world
 		{
 			"id" "3145"
 			"plane" "(320 -128 -272) (320 128 -272) (448 128 -272)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "NATURE/GRASSFLOOR002A"
 			"uaxis" "[0 1 0 -336] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "90"
@@ -5441,7 +5441,7 @@ entity
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "1"
 		}
 		side
 		{
@@ -6201,7 +6201,7 @@ entity
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "1"
 		}
 		side
 		{
@@ -6353,7 +6353,7 @@ entity
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "1"
 		}
 		side
 		{
@@ -6429,7 +6429,7 @@ entity
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "1"
 		}
 		side
 		{
@@ -6494,7 +6494,7 @@ entity
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "1"
 		}
 		side
 		{
@@ -7852,7 +7852,7 @@ entity
 			"plane" "(444 -128 -240) (444 -128 -272) (444 -112 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7863,7 +7863,7 @@ entity
 			"plane" "(448 -128 -272) (448 -128 -240) (448 -112 -240)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7874,7 +7874,7 @@ entity
 			"plane" "(444 -112 -240) (444 -112 -272) (448 -112 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7885,7 +7885,7 @@ entity
 			"plane" "(444 -128 -272) (444 -128 -240) (448 -128 -240)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7906,7 +7906,7 @@ entity
 			"plane" "(448 -40 -240) (444 -40 -240) (444 124 -240)"
 			"material" "METAL/METALHULL013A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 352] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7917,7 +7917,7 @@ entity
 			"plane" "(448 128 -272) (444 124 -272) (444 -40 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7928,7 +7928,7 @@ entity
 			"plane" "(444 -40 -272) (444 124 -272) (444 124 -240)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7939,7 +7939,7 @@ entity
 			"plane" "(448 -40 -240) (448 128 -240) (448 128 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7950,7 +7950,7 @@ entity
 			"plane" "(444 124 -272) (448 128 -272) (448 128 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7961,7 +7961,7 @@ entity
 			"plane" "(444 -40 -240) (448 -40 -240) (448 -40 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7982,7 +7982,7 @@ entity
 			"plane" "(444 124 -240) (320 124 -240) (320 128 -240)"
 			"material" "METAL/METALHULL013A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7993,7 +7993,7 @@ entity
 			"plane" "(448 128 -272) (320 128 -272) (320 124 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 112] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8004,7 +8004,7 @@ entity
 			"plane" "(320 124 -272) (320 128 -272) (320 128 -240)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8015,7 +8015,7 @@ entity
 			"plane" "(444 124 -240) (448 128 -240) (448 128 -272)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8026,7 +8026,7 @@ entity
 			"plane" "(320 128 -272) (448 128 -272) (448 128 -240)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8037,7 +8037,7 @@ entity
 			"plane" "(320 124 -240) (444 124 -240) (444 124 -272)"
 			"material" "EFFECTS/METALRAIL011A"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8317,7 +8317,7 @@ entity
 	"model" "models/props/cs_militia/mailbox01.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "448 -32 -263"
+	"origin" "448 -32 -272"
 	editor
 	{
 		"color" "255 255 0"
@@ -8419,8 +8419,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[430.646 -405.674 253.283]"
-		"look" "[430.231 -404.86 252.876]"
+		"position" "[566.311 -89.3289 -217.608]"
+		"look" "[565.338 -89.2992 -217.837]"
 	}
 	camera
 	{

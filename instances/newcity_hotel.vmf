@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "380"
+	"mapversion" "381"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "380"
+	"mapversion" "381"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1575,8 +1575,8 @@ world
 		{
 			"id" "340"
 			"plane" "(-512 496 144) (-512 496 152) (-512 -272 152)"
-			"material" "BRICK/BRICK_EXT_02"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "BUILDINGS/TRIM12"
+			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1652,7 +1652,7 @@ world
 		{
 			"id" "346"
 			"plane" "(512 -272 144) (-512 -272 144) (-512 -272 152)"
-			"material" "BRICK/BRICK_EXT_02"
+			"material" "BUILDINGS/TRIM12"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1729,7 +1729,7 @@ world
 		{
 			"id" "364"
 			"plane" "(512 496 144) (512 -272 144) (512 -272 152)"
-			"material" "BRICK/BRICK_EXT_02"
+			"material" "BUILDINGS/TRIM12"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1883,7 +1883,7 @@ world
 		{
 			"id" "388"
 			"plane" "(-512 496 144) (512 496 144) (512 496 152)"
-			"material" "BRICK/BRICK_EXT_02"
+			"material" "BUILDINGS/TRIM12"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
