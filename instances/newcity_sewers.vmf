@@ -2,12 +2,18 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "164"
+	"mapversion" "166"
 	"formatversion" "100"
 	"prefab" "0"
 }
 visgroups
 {
+	visgroup
+	{
+		"name" "sewer water"
+		"visgroupid" "11"
+		"color" "217 126 183"
+	}
 }
 viewsettings
 {
@@ -20,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "164"
+	"mapversion" "166"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -254,80 +260,84 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
+	hidden
 	{
-		"id" "484"
-		side
+		solid
 		{
-			"id" "468"
-			"plane" "(-464 -720 -388) (-464 592 -388) (1680 592 -388)"
-			"material" "NATURE/SEWER_WATERDARKFOG"
-			"uaxis" "[1 0 0 64] 0.25"
-			"vaxis" "[0 -1 0 -224] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "467"
-			"plane" "(-464 592 -448) (-464 -720 -448) (1680 -720 -448)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "466"
-			"plane" "(-464 -720 -448) (-464 592 -448) (-464 592 -388)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "465"
-			"plane" "(1680 592 -448) (1680 -720 -448) (1680 -720 -388)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "464"
-			"plane" "(1680 -720 -448) (-464 -720 -448) (-464 -720 -388)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "463"
-			"plane" "(-464 592 -448) (1680 592 -448) (1680 592 -388)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 220 161"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
+			"id" "484"
+			side
+			{
+				"id" "468"
+				"plane" "(-464 -720 -388) (-464 592 -388) (1680 592 -388)"
+				"material" "NATURE/SEWER_WATERDARKFOG"
+				"uaxis" "[1 0 0 64] 0.25"
+				"vaxis" "[0 -1 0 -224] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "467"
+				"plane" "(-464 592 -448) (-464 -720 -448) (1680 -720 -448)"
+				"material" "TOOLS/TOOLSNODRAW"
+				"uaxis" "[1 0 0 32] 0.25"
+				"vaxis" "[0 -1 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "466"
+				"plane" "(-464 -720 -448) (-464 592 -448) (-464 592 -388)"
+				"material" "TOOLS/TOOLSNODRAW"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 32] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "465"
+				"plane" "(1680 592 -448) (1680 -720 -448) (1680 -720 -388)"
+				"material" "TOOLS/TOOLSNODRAW"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 32] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "464"
+				"plane" "(1680 -720 -448) (-464 -720 -448) (-464 -720 -388)"
+				"material" "TOOLS/TOOLSNODRAW"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "463"
+				"plane" "(-464 592 -448) (1680 592 -448) (1680 592 -388)"
+				"material" "TOOLS/TOOLSNODRAW"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			editor
+			{
+				"color" "0 220 161"
+				"visgroupid" "11"
+				"visgroupshown" "0"
+				"visgroupautoshown" "1"
+			}
 		}
 	}
 	solid

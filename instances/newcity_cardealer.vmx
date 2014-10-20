@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "79"
+	"mapversion" "80"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "79"
+	"mapversion" "80"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -370,9 +370,9 @@ world
 		{
 			"id" "147"
 			"plane" "(-256 -224 152) (-248 -232 152) (-248 -232 280)"
-			"material" "METAL/METALWALL005B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.5 -0.5 -0.707107 -18.079] 0.25"
+			"vaxis" "[0.5 -0.5 0.707107 18.079] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -795,7 +795,7 @@ world
 			"plane" "(-248 -232 152) (-256 -224 152) (256 -224 152)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 -0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -913,9 +913,9 @@ world
 		{
 			"id" "248"
 			"plane" "(-256 -224 152) (-256 -224 144) (-248 -232 144)"
-			"material" "METAL/METALWALL005B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.5 -0.5 -0.707107 -18.079] 0.25"
+			"vaxis" "[0.5 -0.5 0.707107 18.079] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2118,9 +2118,9 @@ world
 		{
 			"id" "729"
 			"plane" "(-248 -232 16) (-248 -232 144) (-256 -224 144)"
-			"material" "METAL/METALWALL005B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.5 -0.5 -0.707107 -18.0789] 0.25"
+			"vaxis" "[0.5 -0.5 0.707107 18.0789] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

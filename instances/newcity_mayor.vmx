@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "80"
+	"mapversion" "81"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "80"
+	"mapversion" "81"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5466,9 +5466,9 @@ entity
 		{
 			"id" "1364"
 			"plane" "(256 -256 192) (-256 -256 192) (-272 -272 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "BRICK/BLEND_BRICK_BRICK02"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 1 0 352] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5486,7 +5486,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "1441"
 			"plane" "(-256 -256 192) (-256 -256 208) (-272 -272 208)"
 			"material" "BRICK/BLEND_BRICK_BRICK02"
 			"uaxis" "[0 -1 0 -256] 0.25"
@@ -5497,7 +5497,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "1442"
 			"plane" "(272 -280 192) (272 -280 208) (272 -272 208)"
 			"material" "BRICK/BLEND_BRICK_BRICK02"
 			"uaxis" "[0 1 0 0] 0.25"

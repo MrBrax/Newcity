@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "284"
+	"mapversion" "285"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "284"
+	"mapversion" "285"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9568,18 +9568,62 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "8383"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 0"
+	"BasisOrigin" "-1152 408 128"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "decals/decal_signfire001a"
+	"sides" "4151"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-8 -8 0"
+	"uv1" "-8 8 0"
+	"uv2" "8 8 0"
+	"uv3" "8 -8 0"
+	"origin" "-1152 408 128"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "8395"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/taklampa2.vmf"
+	"origin" "-1224 360 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-969.072 461.26 135.798]"
-		"look" "[-970.071 461.234 135.678]"
+		"position" "[-270.532 241.215 283.019]"
+		"look" "[-271.512 241.349 282.83]"
 	}
 }
 cordon
 {
-	"mins" "(-1024 -1024 -1024)"
-	"maxs" "(1024 1024 1024)"
+	"mins" "(-1976 -1024 48)"
+	"maxs" "(72 1024 120)"
 	"active" "0"
 }

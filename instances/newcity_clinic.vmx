@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "198"
+	"mapversion" "199"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "198"
+	"mapversion" "199"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -599,7 +599,7 @@ world
 			"id" "795"
 			"plane" "(-288 256 0) (288 256 0) (288 256 16)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8088,8 +8088,8 @@ entity
 			"id" "2448"
 			"plane" "(64 -260 16) (64 -256 16) (64 -256 288)"
 			"material" "BRICK/BRICK_EXT_01"
-			"uaxis" "[0 0 -1 -256] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
+			"uaxis" "[0 -1 0 -272] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8164,8 +8164,8 @@ entity
 			"id" "2424"
 			"plane" "(-92 -260 16) (-92 -256 16) (-92 -256 288)"
 			"material" "BRICK/BRICK_EXT_01"
-			"uaxis" "[0 0 -1 -256] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
+			"uaxis" "[0 -1 0 -384] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8316,8 +8316,8 @@ entity
 			"id" "2460"
 			"plane" "(-276 -260 16) (-276 -256 16) (-276 -256 288)"
 			"material" "BRICK/BRICK_EXT_01"
-			"uaxis" "[0 0 -1 -256] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
+			"uaxis" "[0 -1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8816,6 +8816,78 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 2500]"
+	}
+}
+entity
+{
+	"id" "5623"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_urban/porch_light001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-78 -260 96"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5627"
+	"classname" "light"
+	"_light" "254 244 216 10"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-78 -272 100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5713"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_urban/porch_light001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "78 -260 96"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5717"
+	"classname" "light"
+	"_light" "254 244 216 10"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "78 -272 100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
