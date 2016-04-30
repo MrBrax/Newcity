@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6171"
-	"mapversion" "3"
+	"editorbuild" "6412"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2469,6 +2469,7 @@ entity
 	"distance" "110"
 	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
 	"opendir" "2"
 	"returndelay" "-1"
 	"skin" "1"
@@ -2493,6 +2494,7 @@ entity
 	"distance" "90"
 	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
 	"opendir" "2"
 	"returndelay" "-1"
 	"skin" "2"
@@ -2556,9 +2558,9 @@ entity
 		{
 			"id" "429"
 			"plane" "(160 -96 -168) (32 -96 -144) (32 288 -144)"
-			"material" "TILE/TILEROOF003B"
-			"uaxis" "[0 1 0 384] 0.25"
-			"vaxis" "[1 0 0 -396] 0.25"
+			"material" "NEWCITY/ROOF2"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[1 0 0 -128] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2589,10 +2591,10 @@ entity
 		{
 			"id" "426"
 			"plane" "(-96 288 -168) (32 288 -144) (32 -96 -144)"
-			"material" "TILE/TILEROOF003B"
-			"uaxis" "[0 1 0 384] 0.25"
-			"vaxis" "[1 0 0 -128] 0.25"
-			"rotation" "90"
+			"material" "NEWCITY/ROOF2"
+			"uaxis" "[0 -1 0 128] 0.25"
+			"vaxis" "[-0.982871 0 -0.184288 19.6574] 0.25"
+			"rotation" "-90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -2658,6 +2660,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/cs_militia/axe.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -2754,9 +2757,9 @@ entity
 		{
 			"id" "434"
 			"plane" "(160 -288 -168) (32 -288 -144) (32 -96 -144)"
-			"material" "TILE/TILEROOF003B"
-			"uaxis" "[0 1 0 384] 0.25"
-			"vaxis" "[1 0 0 -396] 0.25"
+			"material" "NEWCITY/ROOF2"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[1 0 0 -128] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2787,10 +2790,10 @@ entity
 		{
 			"id" "431"
 			"plane" "(-32 -96 -168) (32 -96 -144) (32 -288 -144)"
-			"material" "TILE/TILEROOF003B"
-			"uaxis" "[0 1 0 384] 0.25"
-			"vaxis" "[0.936329 0 0.351124 82.3975] 0.25"
-			"rotation" "0"
+			"material" "NEWCITY/ROOF2"
+			"uaxis" "[0 -1 0 128] 0.25"
+			"vaxis" "[-0.936329 0 -0.351123 -82.3969] 0.25"
+			"rotation" "-90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}

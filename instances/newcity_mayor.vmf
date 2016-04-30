@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "82"
+	"mapversion" "83"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "82"
+	"mapversion" "83"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3052,7 +3052,7 @@ world
 		{
 			"id" "1291"
 			"plane" "(272 -272 192) (-272 -272 192) (-272 496 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5422,7 +5422,7 @@ entity
 		{
 			"id" "1368"
 			"plane" "(256 -256 208) (272 -272 208) (272 -280 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5520,7 +5520,7 @@ entity
 		{
 			"id" "1374"
 			"plane" "(272 496 208) (272 -272 208) (256 -256 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5542,7 +5542,7 @@ entity
 		{
 			"id" "1372"
 			"plane" "(272 -272 192) (272 496 192) (256 480 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5553,7 +5553,7 @@ entity
 		{
 			"id" "1371"
 			"plane" "(272 -272 208) (272 -272 192) (256 -256 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5564,7 +5564,7 @@ entity
 		{
 			"id" "1370"
 			"plane" "(272 496 192) (272 496 208) (256 480 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5596,7 +5596,7 @@ entity
 		{
 			"id" "1380"
 			"plane" "(-272 496 208) (272 496 208) (256 480 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5640,7 +5640,7 @@ entity
 		{
 			"id" "1376"
 			"plane" "(-272 496 192) (-256 480 192) (256 480 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5672,7 +5672,7 @@ entity
 		{
 			"id" "1386"
 			"plane" "(-272 -272 208) (-272 496 208) (-256 480 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5694,7 +5694,7 @@ entity
 		{
 			"id" "1384"
 			"plane" "(-272 496 192) (-272 -272 192) (-256 -256 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5705,7 +5705,7 @@ entity
 		{
 			"id" "1383"
 			"plane" "(-272 -272 192) (-272 -272 208) (-256 -256 208)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5716,7 +5716,7 @@ entity
 		{
 			"id" "1382"
 			"plane" "(-272 496 208) (-272 496 192) (-256 480 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5760,7 +5760,7 @@ entity
 		{
 			"id" "1404"
 			"plane" "(-48 -280 192) (-80 -280 192) (-80 -272 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5848,7 +5848,7 @@ entity
 		{
 			"id" "1416"
 			"plane" "(80 -280 192) (48 -280 192) (48 -272 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -5936,7 +5936,7 @@ entity
 		{
 			"id" "1428"
 			"plane" "(256 -280 192) (224 -280 192) (224 -272 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"
@@ -6024,7 +6024,7 @@ entity
 		{
 			"id" "1440"
 			"plane" "(-224 -280 192) (-256 -280 192) (-256 -272 192)"
-			"material" "DE_NUKE/NUKROOF01"
+			"material" "NEWCITY/ROOF3"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
 			"rotation" "0"

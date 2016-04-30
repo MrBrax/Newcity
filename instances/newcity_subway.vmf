@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "246"
+	"mapversion" "248"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "246"
+	"mapversion" "248"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9416,21 +9416,6 @@ entity
 }
 entity
 {
-	"id" "3205"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "instances/taklampa2.vmf"
-	"origin" "-720 0 -16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11000]"
-	}
-}
-entity
-{
 	"id" "3347"
 	"classname" "func_detail"
 	solid
@@ -9920,7 +9905,7 @@ entity
 		{
 			"id" "2623"
 			"plane" "(-528 256 304) (-528 272 304) (272 272 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 96] 0.25"
 			"rotation" "0"
@@ -9931,7 +9916,7 @@ entity
 		{
 			"id" "2622"
 			"plane" "(-528 272 300) (-528 256 300) (272 256 300)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 96] 0.25"
 			"rotation" "0"
@@ -9964,7 +9949,7 @@ entity
 		{
 			"id" "2619"
 			"plane" "(-528 272 300) (272 272 300) (272 272 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -9996,7 +9981,7 @@ entity
 		{
 			"id" "2611"
 			"plane" "(-528 -272 304) (-528 -256 304) (272 -256 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 32] 0.25"
 			"rotation" "0"
@@ -10007,7 +9992,7 @@ entity
 		{
 			"id" "2610"
 			"plane" "(-528 -256 300) (-528 -272 300) (272 -272 300)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 32] 0.25"
 			"rotation" "0"
@@ -10040,7 +10025,7 @@ entity
 		{
 			"id" "2607"
 			"plane" "(-528 -256 300) (272 -256 300) (272 -256 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10072,7 +10057,7 @@ entity
 		{
 			"id" "2747"
 			"plane" "(-528 -80 436) (-528 80 436) (272 80 436)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10083,7 +10068,7 @@ entity
 		{
 			"id" "2746"
 			"plane" "(-528 80 432) (-528 -80 432) (272 -80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10116,7 +10101,7 @@ entity
 		{
 			"id" "2743"
 			"plane" "(-528 80 432) (272 80 432) (272 80 436)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10127,7 +10112,7 @@ entity
 		{
 			"id" "2742"
 			"plane" "(272 -80 432) (-528 -80 432) (-528 -80 436)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10148,7 +10133,7 @@ entity
 		{
 			"id" "2753"
 			"plane" "(-528 -80 436) (-528 -80 432) (272 -80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 320] 0.25"
 			"rotation" "0"
@@ -10159,7 +10144,7 @@ entity
 		{
 			"id" "2752"
 			"plane" "(272 -192 404) (272 -192 400) (-528 -192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 336] 0.25"
 			"rotation" "0"
@@ -10192,7 +10177,7 @@ entity
 		{
 			"id" "2749"
 			"plane" "(272 -80 432) (-528 -80 432) (-528 -192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 320] 0.25"
 			"rotation" "0"
@@ -10203,7 +10188,7 @@ entity
 		{
 			"id" "2748"
 			"plane" "(272 -192 404) (-528 -192 404) (-528 -80 436)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 320] 0.25"
 			"rotation" "0"
@@ -10224,7 +10209,7 @@ entity
 		{
 			"id" "2759"
 			"plane" "(-528 -192 404) (-528 -192 400) (272 -192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10235,7 +10220,7 @@ entity
 		{
 			"id" "2758"
 			"plane" "(-528 -256 304) (-528 -260 304) (272 -260 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10268,7 +10253,7 @@ entity
 		{
 			"id" "2755"
 			"plane" "(-528 -256 304) (272 -256 304) (272 -192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10279,7 +10264,7 @@ entity
 		{
 			"id" "2754"
 			"plane" "(272 -260 304) (-528 -260 304) (-528 -192 404)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10300,7 +10285,7 @@ entity
 		{
 			"id" "2767"
 			"plane" "(-528 -80 432) (-528 80 432) (264 80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10344,7 +10329,7 @@ entity
 		{
 			"id" "2763"
 			"plane" "(264 -256 304) (-528 -256 304) (-528 -192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10355,7 +10340,7 @@ entity
 		{
 			"id" "2762"
 			"plane" "(-528 -192 400) (-528 -80 432) (264 -80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10366,7 +10351,7 @@ entity
 		{
 			"id" "2761"
 			"plane" "(-528 256 304) (264 256 304) (264 192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10377,7 +10362,7 @@ entity
 		{
 			"id" "2760"
 			"plane" "(264 80 432) (-528 80 432) (-528 192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10398,7 +10383,7 @@ entity
 		{
 			"id" "2791"
 			"plane" "(272 192 404) (272 192 400) (-528 192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10409,7 +10394,7 @@ entity
 		{
 			"id" "2790"
 			"plane" "(-528 260 304) (-528 256 304) (272 256 304)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -10442,7 +10427,7 @@ entity
 		{
 			"id" "2787"
 			"plane" "(272 256 304) (-528 256 304) (-528 192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10453,7 +10438,7 @@ entity
 		{
 			"id" "2786"
 			"plane" "(-528 260 304) (272 260 304) (272 192 404)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -10474,7 +10459,7 @@ entity
 		{
 			"id" "2785"
 			"plane" "(272 80 436) (272 80 432) (-528 80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 320] 0.25"
 			"rotation" "0"
@@ -10485,7 +10470,7 @@ entity
 		{
 			"id" "2784"
 			"plane" "(-528 192 404) (-528 192 400) (272 192 400)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 336] 0.25"
 			"rotation" "0"
@@ -10518,7 +10503,7 @@ entity
 		{
 			"id" "2781"
 			"plane" "(272 192 400) (-528 192 400) (-528 80 432)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -192] 0.25"
 			"rotation" "0"
@@ -10529,7 +10514,7 @@ entity
 		{
 			"id" "2780"
 			"plane" "(272 80 436) (-528 80 436) (-528 192 404)"
-			"material" "METAL/METALROOF006A"
+			"material" "NEWCITY/ROOF1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -192] 0.25"
 			"rotation" "0"
@@ -14801,8 +14786,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-502.134 109.493 -64.681]"
-		"look" "[-1129.94 277.193 -132.98]"
+		"position" "[509.277 308.622 494.195]"
+		"look" "[-5.00256 283.58 91.9211]"
 	}
 	camera
 	{
