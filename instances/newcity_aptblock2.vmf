@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6412"
-	"mapversion" "246"
+	"editorbuild" "6920"
+	"mapversion" "252"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "246"
+	"mapversion" "252"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6517,6 +6517,16 @@ world
 		editor
 		{
 			"color" "130 207 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "7482"
+		editor
+		{
+			"color" "155 116 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -15950,10 +15960,12 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_downtown/railing_brace02.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-172 -99 98"
+	"origin" "-172 -100 98"
 	editor
 	{
 		"color" "255 255 0"
@@ -15969,6 +15981,8 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_downtown/railing_brace02.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16065,6 +16079,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16084,6 +16100,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16103,6 +16121,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16122,6 +16142,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16141,6 +16163,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16160,6 +16184,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16179,6 +16205,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16228,6 +16256,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/aptblock_stair_right.mdl"
 	"skin" "0"
 	"solid" "0"
@@ -16652,6 +16682,68 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "7483"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_urban/porch_light001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-168 -100 70"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "7482"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7487"
+	"classname" "light"
+	"_light" "254 244 216 5"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-180 -100 74"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "7482"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "7492"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "4"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "140"
+	"rendercolor" "255 244 234"
+	"rendermode" "9"
+	"scale" "0.4"
+	"origin" "-173 -100 76"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "7482"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

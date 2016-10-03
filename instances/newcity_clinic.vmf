@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "302"
+	"mapversion" "303"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "302"
+	"mapversion" "303"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1020,7 +1020,7 @@ world
 		side
 		{
 			"id" "984"
-			"plane" "(280 0 160) (280 248 160) (288 248 160)"
+			"plane" "(280 -8 160) (280 248 160) (288 248 160)"
 			"material" "DE_TRAIN/TRAIN_OFFICETILE_01"
 			"uaxis" "[1 0 0 -64] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -1031,7 +1031,7 @@ world
 		side
 		{
 			"id" "983"
-			"plane" "(288 248 144) (280 248 144) (280 0 144)"
+			"plane" "(288 248 144) (280 248 144) (280 -8 144)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 -64] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -1042,7 +1042,7 @@ world
 		side
 		{
 			"id" "982"
-			"plane" "(280 0 144) (280 248 144) (280 248 160)"
+			"plane" "(280 -8 144) (280 248 144) (280 248 160)"
 			"material" "CS_ITALY/PLASTERWALL02"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -1064,7 +1064,7 @@ world
 		side
 		{
 			"id" "980"
-			"plane" "(288 248 144) (288 0 144) (288 0 160)"
+			"plane" "(288 248 144) (288 -8 144) (288 -8 160)"
 			"material" "BRICK/BRICK_EXT_01"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
@@ -1075,7 +1075,7 @@ world
 		side
 		{
 			"id" "979"
-			"plane" "(288 0 144) (280 0 144) (280 0 160)"
+			"plane" "(288 -8 144) (280 -8 144) (280 -8 160)"
 			"material" "DE_TRAIN/TRAIN_OFFICETILE_01"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"

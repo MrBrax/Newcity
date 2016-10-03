@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "274"
+	"mapversion" "276"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "274"
+	"mapversion" "276"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -888,8 +888,8 @@ world
 			"id" "1368"
 			"plane" "(-432 -16 -64) (-432 -16 64) (-256 -16 64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[1 0 0 332.8] 0.3125"
-			"vaxis" "[0 0 1 204.8] 0.3125"
+			"uaxis" "[1 0 0 128] 0.375"
+			"vaxis" "[0 0 1 128] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -986,8 +986,8 @@ world
 			"id" "1384"
 			"plane" "(-432 -96 -64) (-432 -96 64) (-432 0 64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[0 0 -1 -230.4] 0.3125"
-			"vaxis" "[0 -1 0 -51.2] 0.3125"
+			"uaxis" "[0 0 -1 239.66] 0.235"
+			"vaxis" "[0 -1 0 -51] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1236,8 +1236,8 @@ world
 			"id" "1424"
 			"plane" "(-432 -96 -64) (-240 -96 -64) (-240 -96 64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[1 0 0 332.8] 0.3125"
-			"vaxis" "[0 0 1 204.8] 0.3125"
+			"uaxis" "[1 0 0 128] 0.375"
+			"vaxis" "[0 0 1 128] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2799,8 +2799,8 @@ world
 			"id" "1907"
 			"plane" "(-256 -96 64) (-256 -96 -64) (-256 -76 -64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[0 0 1 -281.6] 0.3125"
-			"vaxis" "[0 -1 0 -51.2] 0.3125"
+			"uaxis" "[0 0 -1 239.66] 0.235"
+			"vaxis" "[0 -1 0 -51] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2864,8 +2864,8 @@ world
 			"id" "1920"
 			"plane" "(-256 -36 -64) (-256 0 -64) (-256 0 64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[0 0 1 -281.6] 0.3125"
-			"vaxis" "[0 -1 0 -51.2] 0.3125"
+			"uaxis" "[0 0 -1 239.66] 0.235"
+			"vaxis" "[0 -1 0 -51] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2940,8 +2940,8 @@ world
 			"id" "1938"
 			"plane" "(-256 -36 -20) (-256 -36 64) (-256 -76 64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[0 0 1 -281.6] 0.3125"
-			"vaxis" "[0 -1 0 -51.2] 0.3125"
+			"uaxis" "[0 0 -1 239.66] 0.235"
+			"vaxis" "[0 -1 0 -51] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3103,7 +3103,7 @@ world
 			"id" "1961"
 			"plane" "(-256 -96 -64) (-432 -96 -64) (-432 -16 -64)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[1 0 0 332.8] 0.3125"
+			"uaxis" "[1 0 0 232.727] 0.34375"
 			"vaxis" "[0 -1 0 -51.2] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3179,7 +3179,7 @@ world
 			"id" "1964"
 			"plane" "(-432 -96 56) (-256 -96 56) (-256 -16 56)"
 			"material" "METAL/PRODVENTA"
-			"uaxis" "[-1 0 0 -332.8] 0.3125"
+			"uaxis" "[-1 0 0 -232.727] 0.34375"
 			"vaxis" "[0 -1 0 -51.2] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8447,6 +8447,16 @@ entity
 cameras
 {
 	"activecamera" "0"
+	camera
+	{
+		"position" "[-154.606 -43.1392 2.1695]"
+		"look" "[-155.591 -43.169 1.98163]"
+	}
+	camera
+	{
+		"position" "[-97.9453 151.79 183.842]"
+		"look" "[-98.3182 151.075 183.248]"
+	}
 	camera
 	{
 		"position" "[199.414 600.919 32.229]"

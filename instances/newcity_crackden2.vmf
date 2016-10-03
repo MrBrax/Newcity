@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "218"
+	"mapversion" "221"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,7 +23,7 @@ visgroups
 }
 viewsettings
 {
-	"bSnapToGrid" "0"
+	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "4"
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "218"
+	"mapversion" "221"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10153,9 +10153,9 @@ world
 		{
 			"id" "4997"
 			"plane" "(-512 272 -112) (512 272 -112) (512 240 -112)"
-			"material" "NEWCITY/SANDED_SNOW_TRANSITION"
+			"material" "NEWCITY/CONCRETE1"
 			"uaxis" "[1 0 0 256] 0.25"
-			"vaxis" "[0 -1 0 -64] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10177,7 +10177,7 @@ world
 			"plane" "(-512 272 -112) (-512 240 -112) (-512 240 -128)"
 			"material" "NEWCITY/GROUND_NOBLEND"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 544] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10188,7 +10188,7 @@ world
 			"plane" "(512 272 -128) (512 240 -128) (512 240 -112)"
 			"material" "NEWCITY/GROUND_NOBLEND"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 544] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10198,8 +10198,8 @@ world
 			"id" "5001"
 			"plane" "(512 272 -112) (-512 272 -112) (-512 272 -128)"
 			"material" "NEWCITY/GROUND_NOBLEND"
-			"uaxis" "[1 0 0 1024] 0.25"
-			"vaxis" "[0 0 -1 544] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10209,8 +10209,8 @@ world
 			"id" "5002"
 			"plane" "(512 240 -128) (-512 240 -128) (-512 240 -112)"
 			"material" "NEWCITY/GROUND_NOBLEND"
-			"uaxis" "[1 0 0 1024] 0.25"
-			"vaxis" "[0 0 -1 544] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10224,12 +10224,12 @@ world
 	}
 	solid
 	{
-		"id" "7981"
+		"id" "9029"
 		side
 		{
-			"id" "5014"
-			"plane" "(-512 576 -112) (512 576 -112) (512 272 -112)"
-			"material" "NEWCITY/SANDED_SNOW"
+			"id" "5020"
+			"plane" "(-512 272 -112) (-512 512 -112) (512 512 -112)"
+			"material" "NEWCITY/CONCRETE1"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 64] 0.25"
 			"rotation" "0"
@@ -10238,8 +10238,8 @@ world
 		}
 		side
 		{
-			"id" "5013"
-			"plane" "(-512 272 -128) (512 272 -128) (512 576 -128)"
+			"id" "5019"
+			"plane" "(-512 512 -128) (-512 272 -128) (512 272 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -10249,8 +10249,8 @@ world
 		}
 		side
 		{
-			"id" "5012"
-			"plane" "(-512 576 -112) (-512 272 -112) (-512 272 -128)"
+			"id" "5018"
+			"plane" "(-512 272 -128) (-512 512 -128) (-512 512 -112)"
 			"material" "NEWCITY/SANDED_SNOW"
 			"uaxis" "[0 1 0 -384] 0.25"
 			"vaxis" "[0 0 -1 544] 0.25"
@@ -10260,8 +10260,8 @@ world
 		}
 		side
 		{
-			"id" "5011"
-			"plane" "(512 576 -128) (512 272 -128) (512 272 -112)"
+			"id" "5017"
+			"plane" "(512 512 -128) (512 272 -128) (512 272 -112)"
 			"material" "NEWCITY/SANDED_SNOW"
 			"uaxis" "[0 1 0 -384] 0.25"
 			"vaxis" "[0 0 -1 544] 0.25"
@@ -10271,22 +10271,98 @@ world
 		}
 		side
 		{
-			"id" "5010"
-			"plane" "(512 576 -112) (-512 576 -112) (-512 576 -128)"
-			"material" "NEWCITY/SANDED_SNOW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 544] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5009"
+			"id" "5016"
 			"plane" "(512 272 -128) (-512 272 -128) (-512 272 -112)"
 			"material" "NEWCITY/SANDED_SNOW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 544] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5015"
+			"plane" "(-512 512 -128) (512 512 -128) (512 512 -112)"
+			"material" "NEWCITY/CONCRETE1"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 169 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "9030"
+		side
+		{
+			"id" "5026"
+			"plane" "(-512 512 -112) (-512 576 -112) (512 576 -112)"
+			"material" "NEWCITY/SIDEWALK_ALLYEAR"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5025"
+			"plane" "(-512 576 -128) (-512 512 -128) (512 512 -128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5024"
+			"plane" "(-512 512 -128) (-512 576 -128) (-512 576 -112)"
+			"material" "NEWCITY/SANDED_SNOW"
+			"uaxis" "[0 1 0 -384] 0.25"
+			"vaxis" "[0 0 -1 544] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5023"
+			"plane" "(512 576 -128) (512 512 -128) (512 512 -112)"
+			"material" "NEWCITY/SANDED_SNOW"
+			"uaxis" "[0 1 0 -384] 0.25"
+			"vaxis" "[0 0 -1 544] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5022"
+			"plane" "(-512 576 -128) (512 576 -128) (512 576 -112)"
+			"material" "NEWCITY/SANDED_SNOW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 544] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5021"
+			"plane" "(512 512 -128) (-512 512 -128) (-512 512 -112)"
+			"material" "NEWCITY/CONCRETE1"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11650,7 +11726,7 @@ entity
 			"id" "2319"
 			"plane" "(-80 256 -112) (80 256 -112) (80 256 -96)"
 			"material" "NEWCITY/FOUNDATION"
-			"uaxis" "[1 0 0 576] 0.25"
+			"uaxis" "[1 0 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -11726,7 +11802,7 @@ entity
 			"id" "2325"
 			"plane" "(-80 272 -112) (80 272 -112) (80 272 -104)"
 			"material" "NEWCITY/FOUNDATION"
-			"uaxis" "[-1 0 0 800] 0.25"
+			"uaxis" "[-1 0 0 288] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -14441,8 +14517,8 @@ entity
 			"id" "4959"
 			"plane" "(96 240 -112) (496 240 -112) (496 256 -112)"
 			"material" "NEWCITY/CONCRETE1"
-			"uaxis" "[1 0 0 568] 0.25"
-			"vaxis" "[0 -1 0 -640] 0.25"
+			"uaxis" "[1 0 0 56] 0.25"
+			"vaxis" "[0 -1 0 -128] 0.25"
 			"rotation" "0"
 			"lightmapscale" "32"
 			"smoothing_groups" "0"
@@ -14714,8 +14790,8 @@ entity
 			"id" "4995"
 			"plane" "(-96 256 -112) (-496 256 -112) (-496 240 -112)"
 			"material" "NEWCITY/CONCRETE1"
-			"uaxis" "[-1 0 0 -1480] 0.25"
-			"vaxis" "[0 1 0 -576] 0.25"
+			"uaxis" "[-1 0 0 -456] 0.25"
+			"vaxis" "[0 1 0 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "32"
 			"smoothing_groups" "0"
@@ -14916,8 +14992,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[157.676 399.964 -593.516]"
-		"look" "[7.15646 120.34 -273.727]"
+		"position" "[551.069 682.756 86.3018]"
+		"look" "[417.933 387.21 -226.809]"
 	}
 }
 cordon

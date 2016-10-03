@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "144"
+	"mapversion" "145"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "144"
+	"mapversion" "145"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5875,93 +5875,99 @@ hidden
 		}
 	}
 }
-entity
+hidden
 {
-	"id" "4687"
-	"classname" "func_detail"
-	solid
+	entity
 	{
-		"id" "4677"
-		side
+		"id" "4687"
+		"classname" "func_detail"
+		hidden
 		{
-			"id" "3193"
-			"plane" "(-264 -207 284) (168 -207 284) (168 -208 284)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3192"
-			"plane" "(-264 -208 268) (168 -208 268) (168 -207 268)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3191"
-			"plane" "(-264 -207 284) (-264 -208 284) (-264 -208 268)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3190"
-			"plane" "(168 -207 268) (168 -208 268) (168 -208 284)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3189"
-			"plane" "(168 -207 284) (-264 -207 284) (-264 -207 268)"
-			"material" "NEWCITY/ICICLES"
-			"uaxis" "[1 0 0 0] 0.15"
-			"vaxis" "[0 0 -1 101.333] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3188"
-			"plane" "(168 -208 268) (-264 -208 268) (-264 -208 284)"
-			"material" "NEWCITY/ICICLES"
-			"uaxis" "[1 0 0 0] 0.15"
-			"vaxis" "[0 0 -1 101.333] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			solid
+			{
+				"id" "4677"
+				side
+				{
+					"id" "3193"
+					"plane" "(-264 -207 284) (168 -207 284) (168 -208 284)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3192"
+					"plane" "(-264 -208 268) (168 -208 268) (168 -207 268)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3191"
+					"plane" "(-264 -207 284) (-264 -208 284) (-264 -208 268)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3190"
+					"plane" "(168 -207 268) (168 -208 268) (168 -208 284)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3189"
+					"plane" "(168 -207 284) (-264 -207 284) (-264 -207 268)"
+					"material" "NEWCITY/ICICLES"
+					"uaxis" "[1 0 0 0] 0.15"
+					"vaxis" "[0 0 -1 101.333] 0.15"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3188"
+					"plane" "(168 -208 268) (-264 -208 268) (-264 -208 284)"
+					"material" "NEWCITY/ICICLES"
+					"uaxis" "[1 0 0 0] 0.15"
+					"vaxis" "[0 0 -1 101.333] 0.15"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				editor
+				{
+					"color" "0 180 0"
+					"visgroupshown" "0"
+					"visgroupautoshown" "1"
+				}
+			}
 		}
 		editor
 		{
 			"color" "0 180 0"
-			"visgroupshown" "1"
+			"visgroupid" "11"
+			"visgroupshown" "0"
 			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
 		}
-	}
-	editor
-	{
-		"color" "0 180 0"
-		"visgroupid" "11"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity

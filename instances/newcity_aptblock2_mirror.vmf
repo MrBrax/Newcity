@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6412"
-	"mapversion" "259"
+	"editorbuild" "6920"
+	"mapversion" "263"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 	"bSnapToGrid" "0"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "259"
+	"mapversion" "263"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6586,6 +6586,16 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	group
+	{
+		"id" "8534"
+		editor
+		{
+			"color" "155 116 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -12205,6 +12215,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox01a.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -14438,6 +14450,8 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_downtown/railing_brace02.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -14457,6 +14471,8 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_downtown/railing_brace02.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16072,6 +16088,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16091,6 +16109,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16110,6 +16130,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16129,6 +16151,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16148,6 +16172,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16167,6 +16193,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16186,6 +16214,8 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/window001.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -16235,6 +16265,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/newcity/aptblock_stair_left.mdl"
 	"skin" "0"
 	"solid" "0"
@@ -16659,6 +16691,68 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "8535"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_urban/porch_light001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-168 92 70"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "8534"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "8539"
+	"classname" "light"
+	"_light" "254 244 216 5"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-180 92 74"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "8534"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "8544"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "4"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "140"
+	"rendercolor" "255 244 234"
+	"rendermode" "9"
+	"scale" "0.4"
+	"origin" "-173 92 76"
+	editor
+	{
+		"color" "155 116 0"
+		"groupid" "8534"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

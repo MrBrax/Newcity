@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6894"
-	"mapversion" "10"
+	"editorbuild" "6920"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -113,7 +113,7 @@ entity
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
-	"model" "models/props/cs_italy/it_mkt_table1.mdl"
+	"model" "models/props/cs_italy/it_mkt_table2.mdl"
 	"skin" "0"
 	"solid" "6"
 	"origin" "-32 0 0"
