@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "528"
+	"mapversion" "529"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "528"
+	"mapversion" "529"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7178,6 +7178,82 @@ world
 	}
 	solid
 	{
+		"id" "23343"
+		side
+		{
+			"id" "12610"
+			"plane" "(-304 -112 144) (-304 144 144) (-288 144 144)"
+			"material" "PLASTER/PLASTERWALL044C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 -320] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12609"
+			"plane" "(-304 144 16) (-304 -112 16) (-288 -112 16)"
+			"material" "CONCRETE/CINDERWALL03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12608"
+			"plane" "(-304 -112 16) (-304 144 16) (-304 144 144)"
+			"material" "PLASTER/PLASTERWALL044C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12607"
+			"plane" "(-288 144 16) (-288 -112 16) (-288 -112 144)"
+			"material" "PLASTER/PLASTERWALL044C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12606"
+			"plane" "(-304 144 16) (-288 144 16) (-288 144 144)"
+			"material" "PLASTER/PLASTERWALL044C"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12605"
+			"plane" "(-288 -112 16) (-304 -112 16) (-304 -112 144)"
+			"material" "CONCRETE/CINDERWALL03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 225 246"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "1994"
 		side
 		{
@@ -8639,82 +8715,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "23343"
-		side
-		{
-			"id" "12610"
-			"plane" "(-304 -112 144) (-304 144 144) (-288 144 144)"
-			"material" "PLASTER/PLASTERWALL044C"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -320] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12609"
-			"plane" "(-304 144 16) (-304 -112 16) (-288 -112 16)"
-			"material" "CONCRETE/CINDERWALL03B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12608"
-			"plane" "(-304 -112 16) (-304 144 16) (-304 144 144)"
-			"material" "PLASTER/PLASTERWALL044C"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12607"
-			"plane" "(-288 144 16) (-288 -112 16) (-288 -112 144)"
-			"material" "PLASTER/PLASTERWALL044C"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12606"
-			"plane" "(-304 144 16) (-288 144 16) (-288 144 144)"
-			"material" "PLASTER/PLASTERWALL044C"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12605"
-			"plane" "(-288 -112 16) (-304 -112 16) (-304 -112 144)"
-			"material" "CONCRETE/CINDERWALL03B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 225 246"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "2117"
@@ -8862,16 +8862,6 @@ world
 		editor
 		{
 			"color" "141 226 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "21066"
-		editor
-		{
-			"color" "127 164 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -13239,7 +13229,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 90 0"
 	"file" "instances/taklampa2.vmf"
-	"origin" "112 64 176"
+	"origin" "112 64 128"
 	editor
 	{
 		"color" "220 30 220"
